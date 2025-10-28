@@ -35,8 +35,6 @@ print("Su primera entrega del día… pero algo en esa caja parecía diferente, 
 # ROL: DESARROLLO - EL VIAJE Y NUEVO PERSONAJE
 # =========================================================
 
-# NOTA: Usar únicamente variables, input() y print()
-
 print(f"\n*****ACTO 2: EL VIAJE POR LAS MONTANAS CHIRICANAS *****")
 print("Con tu mochila lista y el sol iluminando las montañas de Chiriquí, comienza tu travesía...\n")
 
@@ -52,3 +50,59 @@ print(" ¡Tu deseo de", deseo, "comienza a hacerse realidad! ")
 print("El viento sopla con fuerza, las hojas giran a tu alrededor, y el viaje continúa con un nuevo destino misterioso.\n")
 
 print("Fin del Acto 2: El Viaje")
+
+# =========================================================
+# PARTICIPANTE 3: JONATHAN VERGARA
+# ROL: DESARROLLO - EL OBSTÁCULO Y EL SECRETO
+# =========================================================
+
+print("\n--- ACTO III: EL DESTINO REVELADO ---")
+print(f"El viento mágico que levantó el mago {mago} finalmente se detiene.")
+print(f"Ya no estás en las montañas. El deseo de '{deseo}' te ha transportado a un lugar completamente nuevo.")
+
+lugar_nuevo = input("¿Dónde has aparecido? (Ej: 'un templo antiguo en la selva', 'una cueva de cristales', 'una torre en las nubes'): ")
+print(f"\n{nombre_protagonista} mira a su alrededor. Estás en {lugar_nuevo}.")
+print("Sientes un calor en tu mochila. ¡La misteriosa caja (la de tu primera entrega) está vibrando!")
+print("El extraño símbolo en el papel marrón ahora brilla con una luz dorada.")
+
+print(f"Frente a ti, en {lugar_nuevo}, hay un pedestal de piedra que parece esperar la caja.")
+print("Pero el camino no está libre. Un guardián protege el pedestal.")
+guardian = input("¿Qué tipo de guardián es? (Ej: 'un golem de piedra', 'un espíritu del bosque', 'un acertijo viviente'): ")
+
+print(f"\nEl {guardian} te bloquea el paso. No parece hostil, pero te observa fijamente, esperando algo.")
+print(f"Como {trabajo_protagonista} experimentado, sabes que a veces la diplomacia es mejor que la fuerza.")
+
+ofrenda = input(f"¿Qué objeto sacas de tu mochila para ofrecerle al {guardian}? (Ej: 'una brújula vieja', 'una manzana', 'una herramienta de tu trabajo'): ")
+
+print(f"\n{nombre_protagonista} saca {ofrenda} y se lo muestra con respeto al {guardian}.")
+print(f"El {guardian} estudia el objeto por un momento y luego, lentamente, se hace a un lado.")
+print("El camino hacia el pedestal está libre.")
+
+print("\nFin del Acto 3: El Obstáculo Superado")
+
+# =========================================================
+# PARTICIPANTE 4: JONATHAN VERGARA
+# ROL: DESCENLACE - LA ENTREGA FINAL
+# =========================================================
+
+print("\n--- ACTO IV: EL SECRETO ENTREGADO ---")
+print(f"{nombre_protagonista} se acerca al pedestal en {lugar_nuevo}, sintiendo el peso de la misión.")
+print("Colocas la caja vibrante sobre la piedra. El símbolo brilla intensamente y la caja se abre sola.")
+
+contenido_caja = input("¿Qué había dentro de la caja? (Ej: 'una semilla brillante', 'un mapa estelar', 'un libro vacío'): ")
+print(f"\nDentro de la caja solo había {contenido_caja}.")
+print(f"Tan pronto como {contenido_caja} queda expuesto a la luz de {lugar_nuevo}, se eleva en el aire.")
+
+consecuencia = input("¿Qué sucede en el lugar cuando el objeto se eleva? (Ej: 'las plantas crecen rápidamente', 'el cielo se llena de luces', 'se escucha una melodía antigua'): ")
+
+print(f"\nDe repente, {consecuencia}.")
+print("Una voz antigua resuena por toda la sala: 'La entrega ha sido completada. El equilibrio ha sido restaurado'.")
+print(f"El {guardian} hace una reverencia. El mago {mago} aparece brevemente y te guiña un ojo.")
+
+print("Sientes un tirón, y en un instante, estás de vuelta en tu habitación, en tu ciudad.")
+print(f"\nLa caja ha desaparecido. {nombre_protagonista} mira por la ventana hacia los tejados de {ciudad_protagonista}.")
+print(f"Sabes que tu trabajo como {trabajo_protagonista} nunca volverá a ser el mismo.")
+print(f"A tus {edad_protagonista} años, acabas de realizar la entrega más importante de tu vida.")
+print("Tal vez, después de todo, la disciplina y la paciencia sí sirven para cumplir deseos.")
+
+print("\n=== FIN DE LA HISTORIA ===")
