@@ -21,4 +21,3 @@ def acto_2():
     print("Fin del Acto 2: El Viaje")
 
     return mago, deseo
-ß
